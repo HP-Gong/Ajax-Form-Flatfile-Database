@@ -1,0 +1,116 @@
+body{
+	background-color: #d6c3df;
+	}
+
+a {text-decoration:none; color: #70517b;} 
+a:hover {color: #ffffff;} 
+
+.container{
+	width: 250px;
+	height: 175px;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+	top: 45%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-55%, -50%);
+	}
+
+.wrapper {
+	font-family: Helvetica,Arial,sans-serif;
+    font-size: 13px;
+	width: 230px;
+	height: 175px;
+	margin-top: 5px;
+    padding: 20px 30px 30px 30px;
+    background-color: #dfdbf2;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #57527a;
+}
+	
+.email-wrapper{
+	margin-top: 5px;
+	margin-bottom: 15px;
+	width: 210px;
+	height: 95px;
+}
+
+.form-wrapper{
+	width: 210px;
+	height: 30px;
+	margin-bottom: 15px;
+}
+
+h2.title {
+	color: #57527a;
+    background-color: #dfdbf2;
+    font-size: larger;
+    line-height: 18px;
+    padding: 0px 0px;
+    margin: 0 0 15px 0;
+}
+
+#message{
+	width: 220px;
+	height: 60px;
+	}
+
+fieldset{
+	width: 220px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	color: #312148;
+	}
+		
+input#email{
+	width: 220px;
+	height: 20px;
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	vertical-align: middle;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 5px;	
+	border: 1px solid #695e86;
+	background-color: #ffffff;
+}
+
+input[type=submit].btn_blue{
+	display:inline-block;
+	box-sizing:border-box;
+	margin:0px;
+	text-align:center;
+	text-decoration:none;
+	cursor:pointer;
+	background-color:transparent;
+	-webkit-transition:all .25s ease;
+	-moz-transition:all .25s ease;
+	-ms-transition:all .25s ease;
+	-o-transition:all .25s ease;
+	transition:all .25s ease;
+	font-size:10px;
+	font-size:0.9rem;
+	line-height:10px;
+	line-height:1.0rem;
+	min-width:30px;
+	min-width:3rem;
+	padding:5px 5px;
+	border-width:2px;
+	border-style:solid;
+	border-radius:8px; 
+	border-color:#70517b;
+	background-color:#70517b;
+	color:#ffffff;
+	}
+
+input[type=submit].btn_blue:hover{
+	background-color:#4c3f6a;
+	border-color:#4c3f6a;
+	}
